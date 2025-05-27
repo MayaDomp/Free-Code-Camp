@@ -18,7 +18,7 @@ app.use(helmet.contentSecurityPolicy({
     scriptSrc:["'self'",'trusted.cdn.com'],
 
   }
-}))
+}));
 
 
 
